@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+   width: 100%;
+   height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color:#3F434E;
+}
+.main{
+    width: 70%;
+    height: 80%;
+    box-shadow: 0 0 10px #111419;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    
+    border-radius: 2%;
+    border: 5px solid rgb(21, 18, 18);
+}
+.right>h1{
+       
+       font-size: 120px;
+        margin-right: 10%;
+       color:#242B33;
+       -webkit-text-stroke: white;
+        
+}
+ .main>img{
+    position: absolute;
+    left: 40%;
+    top: 6%;
+    z-index: 999;
+} 
+.left{
+    height: 100%;
+    width: 50%;
+    background-color: #20232A ;
+    border-top-left-radius:2% ;
+    border-bottom-left-radius: 2%;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    background-color:#2A3139;
+    margin-left: 50%;
+    margin-top: -54.5%;
+    border-top-right-radius:2% ;
+    border-bottom-right-radius: 2%;
+}
+.first{
+      color: rgb(104, 110, 115); 
+      /* -webkit-text-stroke: olivedrab; */
+      filter: blur(1px);
+      position: absolute;
+      top: 10%;
+      left: 5%;
+}
+.left>h1{
+    color: white;
+    font-size: 50px;
+    /* margin-left: 15%; */
+    padding: 20%;
+}
+.box1{
+    width: 40%;
+    height: 20%;
+    background-color: #2A3139;
+}
+.box1>h4{
+    color: rgb(247, 245, 245);
+    position: absolute;
+    left: 13%;
+    top: 62%;
+ } 
+ .box1>p{
+    color: rgb(98, 93, 93);
+    position: absolute;
+    left: 12%;
+    top: 67%;
+    filter: blur();
+ }
+ .line{
+    background-color: rgb(190, 80, 40);
+    width: 10%;
+    height: 2%;
+    position: absolute;
+    top: 90%;
+ }
+ .line>h6{
+   position: absolute; 
+   left: 80%;
+   color: rgb(168, 163, 163);
+   filter: blur(1px);
+ }
+ .box2{
+    width: 20%;
+    height: 20%;
+    background-color: #20232A;
+    position: absolute;
+    right: 0%;
+    top: 60%;
+}
+.box2>h4{
+    color: rgb(247, 245, 245);
+    position: absolute;
+    left: -30%;
+    top: 15%;
+ } 
+ .box2>p{
+    color: rgb(98, 93, 93);
+    position: absolute;
+    left: -30%;
+    top: 40%;
+    filter: blur();
+ }
+  .logo>.one{
+    position: relative;
+   position: absolute;
+    right: 3%;
+    top: 40%;
+  } 
+ .box2>.two{
+    position: relative;
+    position: absolute;
+     right: 10%;
+     top: 30%;
+    
+   } 
+  .right>.circle1{
+    background-color:transparent;
+    border: 12px solid rgb(255, 88, 27);
+    width: 30%;
+     height: 30%;
+     border-radius: 50%;
+     position: relative;
+     top: -35%;
+     
+ } 
+ .right>.circle2{
+    background-color:#2A3139;
+    width: 25%;
+     height: 25%;
+     border-radius: 50%;
+     position: relative;
+     top: -63%;
+     left: 2%;
+ }
